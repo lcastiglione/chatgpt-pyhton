@@ -8,6 +8,8 @@ openai = "*"
 python-dotenv = "*"
 pillow = "*"
 requests = "*"
+speechrecognition = "*"
+pydub = "*"
 
 [dev-packages]
 autopep8 = "*"
