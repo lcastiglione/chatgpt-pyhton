@@ -1,7 +1,8 @@
 ﻿import openai
 from dotenv import load_dotenv
 import os
-from setup.functions.audio import get_text_by_audio
+#from setup.functions.audio import get_text_by_audio
+from setup.functions.cloudinary import transform_image
 
 
 load_dotenv()
@@ -35,4 +36,5 @@ def chat():
 if __name__ == '__main__':
     chat()
 '''
-get_text_by_audio("assets/test.mp3")
+#get_text_by_audio("assets/test.mp3")
+transform_image()

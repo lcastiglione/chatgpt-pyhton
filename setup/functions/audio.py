@@ -4,7 +4,7 @@ from pydub import AudioSegment
 from pydub.silence import split_on_silence
 
 
-def get_text_by_audio(filename):
+def #get_text_by_audio(filename):
     """
     Splitting the large audio file into chunks
     and apply speech recognition on each of these chunks

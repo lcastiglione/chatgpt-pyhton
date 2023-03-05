@@ -10,6 +10,7 @@ pillow = "*"
 requests = "*"
 speechrecognition = "*"
 pydub = "*"
+cloudinary = "*"
 
 [dev-packages]
 autopep8 = "*"
